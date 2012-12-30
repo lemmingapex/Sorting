@@ -5,11 +5,11 @@ Popular Sorting Algorithms:
 
 Done:
 * Merge sort
-* Heapsort
+* Insertion sort
 
 To-do:
+* Heapsort
 * Bubble sort
 * Selection sort
-* Insertion sort
 * Quicksort
 * Radix sort
