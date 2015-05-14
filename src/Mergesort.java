@@ -13,7 +13,7 @@ public class Mergesort<T extends Comparable<? super T>> {
 	}
 	
 	@SuppressWarnings("unchecked")
-	private T[] sort(T[] pNumbers) throws IllegalArgumentException {
+	public T[] sort(T[] pNumbers) throws IllegalArgumentException {
 		int length = pNumbers.length;
 
 		if (length > 1) {
@@ -65,7 +65,7 @@ public class Mergesort<T extends Comparable<? super T>> {
 		return result;
 	}
 
-	static void printArray(Double[] numbers) {
+	public static void printArray(Double[] numbers) {
 		int length = numbers.length;
 		for (int i = 0; i < length; i++) {
 			System.out.print(numbers[i] + " ");
