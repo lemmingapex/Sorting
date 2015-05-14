@@ -12,7 +12,7 @@ public class Quicksort<T extends Comparable<? super T>> {
 		
 	}
 	
-	private T[] sort(T[] pNumbers) {
+	public T[] sort(T[] pNumbers) {
 		if(pNumbers == null || pNumbers.length == 0) {
 			return pNumbers;
 		} else {
@@ -58,7 +58,7 @@ public class Quicksort<T extends Comparable<? super T>> {
 		numbers[j] = temp;
 	}
 
-	void printArray(T[] numbers) {
+	public void printArray(T[] numbers) {
 		int length = numbers.length;
 		for (int i = 0; i < length; i++) {
 			System.out.print(numbers[i] + " ");
