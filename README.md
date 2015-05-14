@@ -1,15 +1,14 @@
-Sorting
-=======
+#Sorting
 
-Popular Sorting Algorithms:
+##Popular Sorting Algorithms
 
 Done:
 * Merge sort
-* Insertion sort
+* Quicksort
 
 To-do:
 * Heapsort
 * Bubble sort
 * Selection sort
-* Quicksort
+* Insertion sort
 * Radix sort
